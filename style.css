@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #424E61;
+    background-image: linear-gradient(#262628,#d72b35,#e6ab6e);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -25,11 +25,11 @@ body {
 }
 
 .escola-imagem{
-    width: 25%;
+    width: 45%;
 }
 
 .escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
+    background-image: linear-gradient(#e6ab6e,#d72b35,#262628);
     color:white;
     display: flex;
     justify-content: center;
@@ -44,13 +44,14 @@ body {
 
 .escola-titulo{
     padding: 24px 0;
+    text-align: center;
 }
 
 .estudante{
     padding: 24px 0;
 }
 .estudante-imagem{
-    width: 120px;
+    width: 200px;
 }
 
 .estudante-icone{
@@ -82,4 +83,12 @@ body {
     height: 60px;
     padding: 12px 0;
    
+}
+.escola-textos{
+    text-align: center;
+}
+
+.escola-titulo-dois{
+    padding: 24px 0;
+    text-align: center;
 }
